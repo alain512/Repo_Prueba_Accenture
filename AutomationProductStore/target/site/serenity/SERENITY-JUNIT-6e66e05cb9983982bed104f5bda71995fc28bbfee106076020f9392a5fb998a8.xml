@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="as a certifier, I want test the product store page" skipped="0" tests="5" time="121.34" timestamp="2024-03-21 12:24:59"><testcase name="Successful registration"><failure message="&#10;Expected: &quot;Sign up successful.&quot;&#10;     but: was &quot;This user already exist.&quot;" type="java.lang.AssertionError">
+Expected: "Sign up successful."
+     but: was "This user already exist."</failure><system-err>
+Expected: "Sign up successful."
+     but: was "This user already exist."&#13;
+co.com.automation.store.stepdefinitions.ProductStoreStepDefinitions.theUserShouldSeeAnAlertWithTheMessage(ProductStoreStepDefinitions.java:48)&#13;
+✽.the user should see an alert with the message Sign up successful.(src/test/resources/escenarios_store.feature:15)&#13;
+</system-err></testcase><testcase name="Failed registration, User already exist"/><testcase name="make a successful purchase"/></testsuite>
